@@ -1,0 +1,43 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.39.33523.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/ariel/onedrive - centre d'estudis monlau/1daw/m5/uf3/proyectoherencia/personaje.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "02831e6dc20458fb362f862cd6118f6e261a0caca1a90041d996b2bdcd443fbd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/ariel/onedrive - centre d'estudis monlau/1daw/m5/uf3/proyectoherencia/personaje.h"
+          },
+          "hashes": {
+            "sha-256": "a04908277bc3c3625bec8476b322b9c87adcaebfaafc49903ca3b6a9235a9cf3"
+          }
+        }
+      ]
+    }
+  ]
+}
